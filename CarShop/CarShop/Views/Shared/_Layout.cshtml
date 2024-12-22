@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+   
+        <title>Cars Shop</title>
+    <link href='https://fonts.googleapis.com/css?family=Work+Sans' rel='stylesheet' type='text/css'>
+    <script src="~/lib/jquery/jquery.js"></script>
+    <script src="~/lib/bootstrap/js/bootstrap.js"></script>
+    <link href="~/css/site.css" rel="stylesheet" />
+    </head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-primary" aria-label="Car Shop navigation header">
+                <div class="container-xl">
+                    <a class="navbar-brand" asp-controller="Home" asp-action="Index">
+                        <img src="@Url.Content("~/images/CarShopLogo.jpg")" width="151" height="47" class="d-inline-block align-top mb-2 mt-1" alt="CarShop_logo">
+                    </a>
+                    <div class="header-links">
+                        <div class="button-group">
+                            <!-- Wrap buttons in a div for stacking -->
+                            <a class="list-all-cars" asp-controller="Car" asp-action="List">
+                                List All Cars
+                            </a>
+                            <a class="btn btn-primary" asp-controller="Order" asp-action="Checkout">
+                                Checkout Now!
+                            </a>
+                        </div>
+                        <ul class="navbar-nav mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="Car" asp-action="Search">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                        <vc:vc:shopping-cart-summary></vc:vc:shopping-cart-summary>
+                        <partial name="_LoginPartial" />
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+
+
+        @RenderBody()
+        @RenderSection("Scripts",required:false)
+    </div>
+</body>
+</html>

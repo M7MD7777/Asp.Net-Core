@@ -1,0 +1,196 @@
+﻿/* General Styles */
+body {
+    font-family: 'Work Sans', sans-serif;
+    margin-top: 80px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #333;
+    text-align: center;
+}
+
+/* Card Styles */
+.car-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+}
+
+    .car-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+    }
+
+.card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 1px solid #ddd;
+}
+
+.card-body {
+    padding: 15px;
+    text-align: center;
+}
+
+    .card-body h2 {
+        font-size: 1.5rem;
+        color: #007bff;
+        margin-bottom: 10px;
+    }
+
+.car-link {
+    text-decoration: none;
+    color: #007bff;
+}
+
+    .car-link:hover {
+        text-decoration: underline;
+    }
+
+.text-start {
+    text-align: left;
+}
+
+.text-nowrap {
+    white-space: nowrap;
+}
+
+/* Price Styles */
+h5 {
+    font-size: 1.25rem;
+    color: #28a745;
+    margin: 0;
+}
+
+.car-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.mt-2 {
+    margin-top: 0.5rem;
+}
+
+/* Grid Layout */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centering all car cards */
+}
+
+.col {
+    flex: 0 0 33.3333%; /* 3 cards per row on large screens */
+    max-width: 33.3333%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+    .col {
+        flex: 0 0 50%; /* 2 cards per row on tablets */
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 576px) {
+    .col {
+        flex: 0 0 100%; /* 1 card per row on small screens */
+        max-width: 100%;
+    }
+}
+
+/* Navbar Styles */
+.navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand img {
+    max-width: 100%;
+    height: auto;
+}
+
+.bg-primary {
+    background-color: #007bff !important;
+}
+
+.navbar-nav {
+    flex-direction: row;
+}
+
+    .navbar-nav .nav-item {
+        margin-right: 20px;
+    }
+
+        .navbar-nav .nav-item a {
+            color: white;
+            font-weight: 600;
+        }
+
+            .navbar-nav .nav-item a:hover {
+                color: #ddd;
+            }
+
+/* Header Button Styles */
+.header .button-group {
+    display: flex;
+    flex-direction: column; /* Stack buttons vertically */
+    margin-right: 20px; /* Space between button group and nav items */
+}
+
+.list-all-cars,
+.btn-primary {
+    background-color: #007bff; /* Blue button color */
+    color: white; /* Text color white */
+    font-size: 1.25rem;
+    margin-bottom: 10px; /* Space between stacked buttons */
+    padding: 10px 20px; /* Padding for buttons */
+    font-weight: 600;
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    text-align: center; /* Center text */
+    text-decoration: none; /* Remove underline from links */
+}
+
+    .list-all-cars:hover,
+    .btn-primary:hover {
+        background-color: #0056b3; /* Darker blue on hover */
+    }
+
+/* Container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Responsive */
+@media (max-width: 576px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    .car-card {
+        margin-bottom: 20px;
+    }
+
+    .navbar-brand img {
+        width: 100px;
+    }
+
+    .header .button-group {
+        margin-right: 0; /* Remove margin on small screens */
+    }
+}

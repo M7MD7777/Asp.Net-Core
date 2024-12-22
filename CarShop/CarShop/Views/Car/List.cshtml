@@ -1,0 +1,11 @@
+﻿@model CarListViewModel
+
+
+<h1>@Model.CompanyName</h1>
+<div class="row row-cols-1 row-cols-md-3 g-4">
+@foreach (var car in Model.Cars)
+{
+  <partial name="_CarCard" model="car"></partial>
+}
+</div>
+

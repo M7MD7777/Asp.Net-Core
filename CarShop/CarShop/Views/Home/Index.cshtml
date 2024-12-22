@@ -1,0 +1,30 @@
+﻿@model CarListViewModel
+
+
+<h1>Affordable Cars</h1>
+<div class="row row-cols-1 row-cols-md-3 g-4">
+@foreach (var car in Model.Cars)
+{
+    <div class="col">
+        <div class="card car-card">
+                <img src="@Url.Content("~/images/" + car.ImageURL)" class="card-img-top" alt="@car.Name">
+
+
+            <div class="card-body car-button">
+                <h4 class="d-grid">
+                </h4>
+
+                <div class="d-flex justify-content-between mt-2">
+                    <h2 class="text-start">
+                        <a class="car-link" asp-controller="Car" asp-action="Details" asp-route-id="@car.CarId">@car.Name</a>
+                    </h2>
+                    <h5 class="text-nowrap">
+                        @car.Price.ToString("c")
+                    </h5>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+</div>
+

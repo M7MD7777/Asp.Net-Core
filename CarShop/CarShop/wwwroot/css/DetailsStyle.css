@@ -1,0 +1,64 @@
+﻿/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+h3, h4 {
+    color: #333;
+}
+
+.my-5 {
+    margin: 2rem 0;
+}
+
+/* Image styling */
+.card-img-top {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* Layout styling for the row */
+.row {
+    display: flex;
+    align-items: center;
+}
+
+.gx-5 {
+    gap: 20px;
+}
+
+.col-7 {
+    flex: 7;
+}
+
+/* Price and Name styling */
+.pull-right {
+    float: right;
+    font-size: 1.5rem;
+    color: #007bff;
+}
+
+h4 {
+    font-size: 1.75rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Add to Cart button */
+.addToCart .button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+    .addToCart .button:hover {
+        background-color: #218838;
+    }

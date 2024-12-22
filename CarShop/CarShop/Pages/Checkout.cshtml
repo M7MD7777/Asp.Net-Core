@@ -1,0 +1,38 @@
+﻿@page
+@model CarShop.Pages.CheckoutModel
+
+
+<form method="post" role="form">
+    <h3 class="my-5">
+        Lets Checkout
+    </h3>
+    <div asp-validation-summary="All" class="text-danger "></div>
+
+    <div> 
+
+        <div>
+            <div>
+                <label asp-for"Order.Name" class="form-label"></label>
+                <input asp-for"Order.Name" class="form-control" />
+                <span asp-validation-for="Order.Name" class="text-danger "></span>
+            </div>
+            <div>
+                <label asp-for"Order.Address" class="form-label"></label>
+                <input asp-for"Order.Address" class="form-control" />
+            </div>
+            <div>
+                <label asp-for"Order.City" class="form-label"></label>
+                <input asp-for"Order.City" class="form-control" />
+            </div>
+            <div>
+                <label asp-for"Order.PhoneNumber" class="form-label"></label>
+                <input asp-for"Order.PhoneNumber" class="form-control" />
+            </div>
+        </div>
+        <input type="submit" class="btn btn-secondary" value="Complete Order" />
+    </div>
+
+
+
+
+</form>

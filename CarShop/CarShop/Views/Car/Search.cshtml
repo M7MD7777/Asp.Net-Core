@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Search</title>
+    <link rel="stylesheet" href="/css/SearchStyle.css"> <!-- External CSS file -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="search-container">
+        <label for="txtCarName">Enter your search query:</label>
+        <input id="txtCarName" type="text" placeholder="Search for cars..." />
+        <button id="searchButton">Search</button>
+    </div>
+
+    <table id="tblCars">
+        <thead>
+            <tr>
+                <th>Image</th>
+                <th>Name</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("button").click(function () {
+                var searchQuery = $.trim($("#txtCarName").val());
+                $("table tbody").html("");
+                $.ajax({
+                    type: "POST",
+                    url: "/api/Search",
+                    data: "\"" + searchQuery + "\"",
+                    contentType: "application/json; charset=utf-8",
+                    dataType: "json",
+                    success: function (cars) {
+                        var table = $("#tblCars");
+                        table.find("tr:not(:first)").remove();
+                        $.each(cars, function (i, car) {
+                            $("tbody").append($("<tr>"));
+                            var appendElement = $("tbody tr").last();
+                            appendElement.append($("<td>").html('<img src="/images/' + car.imageURL + '" class="car-image">'));
+                            appendElement.append($("<td>").html('<a href="/car/details/' + car.carId + '">' + car.name + '</a>'));
+                            appendElement.append($("<td>").html('$' + car.price));
+                        });
+                    },
+                    error: function (xhr, status, error) {
+                        console.log(xhr)
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

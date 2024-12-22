@@ -1,0 +1,193 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mooha\\Desktop\\DotNet\\CarShop\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0EBAECF7-C008-4EE0-B14A-9F478971FC98}|CarShop\\CarShop.csproj|c:\\users\\mooha\\desktop\\dotnet\\carshop\\carshop\\models\\ishoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EBAECF7-C008-4EE0-B14A-9F478971FC98}|CarShop\\CarShop.csproj|solutionrelative:carshop\\models\\ishoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EBAECF7-C008-4EE0-B14A-9F478971FC98}|CarShop\\CarShop.csproj|c:\\users\\mooha\\desktop\\dotnet\\carshop\\carshop\\taghelpers\\emailtaghelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EBAECF7-C008-4EE0-B14A-9F478971FC98}|CarShop\\CarShop.csproj|solutionrelative:carshop\\taghelpers\\emailtaghelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EBAECF7-C008-4EE0-B14A-9F478971FC98}|CarShop\\CarShop.csproj|c:\\users\\mooha\\desktop\\dotnet\\carshop\\carshop\\models\\carrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EBAECF7-C008-4EE0-B14A-9F478971FC98}|CarShop\\CarShop.csproj|solutionrelative:carshop\\models\\carrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EBAECF7-C008-4EE0-B14A-9F478971FC98}|CarShop\\CarShop.csproj|c:\\users\\mooha\\desktop\\dotnet\\carshop\\carshop\\models\\icarrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EBAECF7-C008-4EE0-B14A-9F478971FC98}|CarShop\\CarShop.csproj|solutionrelative:carshop\\models\\icarrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EBAECF7-C008-4EE0-B14A-9F478971FC98}|CarShop\\CarShop.csproj|c:\\users\\mooha\\desktop\\dotnet\\carshop\\carshop\\models\\icompanyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EBAECF7-C008-4EE0-B14A-9F478971FC98}|CarShop\\CarShop.csproj|solutionrelative:carshop\\models\\icompanyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EBAECF7-C008-4EE0-B14A-9F478971FC98}|CarShop\\CarShop.csproj|c:\\users\\mooha\\desktop\\dotnet\\carshop\\carshop\\models\\mockcompanyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EBAECF7-C008-4EE0-B14A-9F478971FC98}|CarShop\\CarShop.csproj|solutionrelative:carshop\\models\\mockcompanyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EBAECF7-C008-4EE0-B14A-9F478971FC98}|CarShop\\CarShop.csproj|c:\\users\\mooha\\desktop\\dotnet\\carshop\\carshop\\components\\shoppingcartsummary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EBAECF7-C008-4EE0-B14A-9F478971FC98}|CarShop\\CarShop.csproj|solutionrelative:carshop\\components\\shoppingcartsummary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EBAECF7-C008-4EE0-B14A-9F478971FC98}|CarShop\\CarShop.csproj|c:\\users\\mooha\\desktop\\dotnet\\carshop\\carshop\\controllers\\api\\searchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EBAECF7-C008-4EE0-B14A-9F478971FC98}|CarShop\\CarShop.csproj|solutionrelative:carshop\\controllers\\api\\searchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EBAECF7-C008-4EE0-B14A-9F478971FC98}|CarShop\\CarShop.csproj|c:\\users\\mooha\\desktop\\dotnet\\carshop\\carshop\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0EBAECF7-C008-4EE0-B14A-9F478971FC98}|CarShop\\CarShop.csproj|solutionrelative:carshop\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IShoppingCart.cs",
+              "DocumentMoniker": "C:\\Users\\mooha\\Desktop\\DotNet\\CarShop\\CarShop\\Models\\IShoppingCart.cs",
+              "RelativeDocumentMoniker": "CarShop\\Models\\IShoppingCart.cs",
+              "ToolTip": "C:\\Users\\mooha\\Desktop\\DotNet\\CarShop\\CarShop\\Models\\IShoppingCart.cs",
+              "RelativeToolTip": "CarShop\\Models\\IShoppingCart.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T17:40:31.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmailTagHelper.cs",
+              "DocumentMoniker": "C:\\Users\\mooha\\Desktop\\DotNet\\CarShop\\CarShop\\TagHelpers\\EmailTagHelper.cs",
+              "RelativeDocumentMoniker": "CarShop\\TagHelpers\\EmailTagHelper.cs",
+              "ToolTip": "C:\\Users\\mooha\\Desktop\\DotNet\\CarShop\\CarShop\\TagHelpers\\EmailTagHelper.cs",
+              "RelativeToolTip": "CarShop\\TagHelpers\\EmailTagHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T17:40:10.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CarRepository.cs",
+              "DocumentMoniker": "C:\\Users\\mooha\\Desktop\\DotNet\\CarShop\\CarShop\\Models\\CarRepository.cs",
+              "RelativeDocumentMoniker": "CarShop\\Models\\CarRepository.cs",
+              "ToolTip": "C:\\Users\\mooha\\Desktop\\DotNet\\CarShop\\CarShop\\Models\\CarRepository.cs",
+              "RelativeToolTip": "CarShop\\Models\\CarRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T17:38:14.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ICarRepository.cs",
+              "DocumentMoniker": "C:\\Users\\mooha\\Desktop\\DotNet\\CarShop\\CarShop\\Models\\ICarRepository.cs",
+              "RelativeDocumentMoniker": "CarShop\\Models\\ICarRepository.cs",
+              "ToolTip": "C:\\Users\\mooha\\Desktop\\DotNet\\CarShop\\CarShop\\Models\\ICarRepository.cs",
+              "RelativeToolTip": "CarShop\\Models\\ICarRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T17:38:10.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ICompanyRepository.cs",
+              "DocumentMoniker": "C:\\Users\\mooha\\Desktop\\DotNet\\CarShop\\CarShop\\Models\\ICompanyRepository.cs",
+              "RelativeDocumentMoniker": "CarShop\\Models\\ICompanyRepository.cs",
+              "ToolTip": "C:\\Users\\mooha\\Desktop\\DotNet\\CarShop\\CarShop\\Models\\ICompanyRepository.cs",
+              "RelativeToolTip": "CarShop\\Models\\ICompanyRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T17:38:07.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MockCompanyRepository.cs",
+              "DocumentMoniker": "C:\\Users\\mooha\\Desktop\\DotNet\\CarShop\\CarShop\\Models\\MockCompanyRepository.cs",
+              "RelativeDocumentMoniker": "CarShop\\Models\\MockCompanyRepository.cs",
+              "ToolTip": "C:\\Users\\mooha\\Desktop\\DotNet\\CarShop\\CarShop\\Models\\MockCompanyRepository.cs",
+              "RelativeToolTip": "CarShop\\Models\\MockCompanyRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T17:34:00.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ShoppingCartSummary.cs",
+              "DocumentMoniker": "C:\\Users\\mooha\\Desktop\\DotNet\\CarShop\\CarShop\\Components\\ShoppingCartSummary.cs",
+              "RelativeDocumentMoniker": "CarShop\\Components\\ShoppingCartSummary.cs",
+              "ToolTip": "C:\\Users\\mooha\\Desktop\\DotNet\\CarShop\\CarShop\\Components\\ShoppingCartSummary.cs",
+              "RelativeToolTip": "CarShop\\Components\\ShoppingCartSummary.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T17:37:44.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SearchController.cs",
+              "DocumentMoniker": "C:\\Users\\mooha\\Desktop\\DotNet\\CarShop\\CarShop\\Controllers\\Api\\SearchController.cs",
+              "RelativeDocumentMoniker": "CarShop\\Controllers\\Api\\SearchController.cs",
+              "ToolTip": "C:\\Users\\mooha\\Desktop\\DotNet\\CarShop\\CarShop\\Controllers\\Api\\SearchController.cs",
+              "RelativeToolTip": "CarShop\\Controllers\\Api\\SearchController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T17:34:06.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\mooha\\Desktop\\DotNet\\CarShop\\CarShop\\Pages\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "CarShop\\Pages\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\mooha\\Desktop\\DotNet\\CarShop\\CarShop\\Pages\\_ViewImports.cshtml",
+              "RelativeToolTip": "CarShop\\Pages\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-28T17:32:46.693Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
